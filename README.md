@@ -660,8 +660,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Faizan Hussain**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [@faizanhussain2310](https://github.com/faizanhussain2310)
+- Email: faizanhussain2310@gmail.com
 
 ---
 
