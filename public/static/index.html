@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static File Test - Go Web Server</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Static Files Working!</h1>
+        <p class="success">✓ CSS stylesheet loaded successfully</p>
+        <p class="success">✓ JavaScript file loaded successfully</p>
+        
+        <div class="info-box">
+            <h3>Static File Server Info</h3>
+            <p><strong>Server:</strong> Custom Go TCP Web Server</p>
+            <p><strong>Static Directory:</strong> /public/static/</p>
+            <p><strong>Current Time:</strong> <span id="current-time">Loading...</span></p>
+        </div>
+        
+        <button onclick="testStaticJS()">Test JavaScript</button>
+        
+        <p style="margin-top: 30px; color: #888; font-size: 0.9em;">
+            This page demonstrates static file serving with CSS and JavaScript
+        </p>
+    </div>
+    
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
